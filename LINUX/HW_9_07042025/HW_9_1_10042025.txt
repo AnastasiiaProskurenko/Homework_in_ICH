@@ -1,0 +1,11 @@
+!#/bin/bash
+
+echo "Today is " $(date)
+
+echo "Hello, " $USER "!"
+
+echo "Program start from " $(pwd)
+
+ps -ef | grep bioset | grep -v grep | wc -l
+
+ls -l /etc/passwd | awk '{print $1}'

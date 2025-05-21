@@ -1,0 +1,23 @@
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+#!/bin/bash
+
+pwd USER
+
+echo $USER
+   0 cd /tmp
+   1 nano file.txt
+   2 df -h | head -n 3 >> file.txt
+   3 cat file.txt 
+   4 chmod 730 file.txt 
+   5 ls -la
+   6 touch myfirstbashscript.sh
+   7 chmod +x myfirstbashscript.sh
+   8 ls -la
+   9 export USER=Anastasiia
+  10 vi myfirstbashscript.sh
+  11 bash myfirstbashscript.sh 
+  12 cat myfirstbashscript.sh >> file.txt 
+  13 cat file.txt 
+  14 history >> file.txt 

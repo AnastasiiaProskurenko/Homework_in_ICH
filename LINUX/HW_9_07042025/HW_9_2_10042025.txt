@@ -1,0 +1,19 @@
+   0 touch myfirstbashscript.sh
+   1 chmod 744 myfirstbashscript.sh 
+   2 export USER=Anastasiia
+   3 env
+   4 nano myfirstbashscript.sh 
+   5 ./myfirstbashscript.sh 
+   6 mv myfirstbashscript.sh  myfirstbashscript.txt
+   7 export_file myfirstbashscript.txt 
+   8 history >> file_hw.txt | export_file
+   0 touch myfirstbashscript.sh
+   1 chmod 744 myfirstbashscript.sh 
+   2 export USER=Anastasiia
+   3 env
+   4 nano myfirstbashscript.sh 
+   5 ./myfirstbashscript.sh 
+   6 mv myfirstbashscript.sh  myfirstbashscript.txt
+   7 export_file myfirstbashscript.txt 
+   8 history >> file_hw.txt | export_file
+   9 history >> file_hw.txt | export_file file_hw.txt 
